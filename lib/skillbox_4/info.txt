@@ -1,1 +1,2 @@
 Рассматриваем stateless и stateful виджеты и разницу между ними
+Рассматриваем Value Notifier
