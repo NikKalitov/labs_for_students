@@ -9,6 +9,7 @@ class AlignExample extends StatelessWidget {
       body: SafeArea(
         // Выравнивает дочерний элемент внутри себя
         child: Align(
+          // По названиям понятно, где будет расположен виджет
           alignment: Alignment.bottomLeft,
           child: Container(
             height: 150,
