@@ -1,16 +1,8 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:flutter/material.dart';
+import './laba_7_2/main.dart' as laba_7_2;
+import './laba_7_3/main.dart' as laba_7_3;
 
 void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp();
-  }
+  laba_7_3.main();
 }

@@ -1,0 +1,7 @@
+Здесь два метода
+
+Navigator.of(context).push();
+и
+Navigator.of(context).pushNamed();
+
+Использование routes
