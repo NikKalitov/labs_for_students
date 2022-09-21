@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
 
@@ -17,7 +17,12 @@ class _StreamExampleState extends State<StreamExample> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [],
+          children: [
+            Form(
+              child: TextField(),
+            ),
+            Text('data'),
+          ],
         ),
       ),
     );
