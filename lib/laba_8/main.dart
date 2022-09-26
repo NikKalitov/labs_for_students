@@ -16,8 +16,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       // home: FutureExample(),
-      home: FutureBuilderExample(),
-      // home: StreamExample(),
+      // home: FutureBuilderExample(),
+      home: StreamExample(),
     );
   }
 }
